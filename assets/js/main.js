@@ -94,7 +94,7 @@ document.querySelector('form').onsubmit = async (event) => {
   const name = document.querySelector('#name').value
   const email = document.querySelector('#email').value
   const msg_subject = document.querySelector('#msg_subject').value
-  const message = document.querySelector('#message').value
+  const msg = document.querySelector('#message').value
   const submit = document.querySelector('#submit')
 
   submit.disabled = true
@@ -103,15 +103,15 @@ document.querySelector('form').onsubmit = async (event) => {
     {
       method: 'post',
       headers: { 'content-type': 'application/json' },
-      body: JSON.stringify({ email, msg_subject, message, name }),
+      body: JSON.stringify({ email, msg_subject, msg, name }),
     },
   )
-  const { status, message: msg } = await response.json()
+  const { status, message } = await response.json()
 
   if (status) {
-    $('#contact-us').notify(msg, { className: 'success', position: 'top' })
+    $('#contact-us').notify(message, { className: 'success', position: 'top' })
   } else {
-    $('#contact-us').notify(msg, { className: 'error', position: 'top' })
+    $('#contact-us').notify(message, { className: 'error', position: 'top' })
   }
   submit.disabled = false
 }
