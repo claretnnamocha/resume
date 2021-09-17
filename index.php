@@ -34,8 +34,7 @@
       <div class="container">
         <!-- Brand and toggle get grouped for better mobile display -->
         <div class="navbar-header">
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#main-navbar"
-            aria-controls="main-navbar" aria-expanded="false" aria-label="Toggle navigation">
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#main-navbar" aria-controls="main-navbar" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
             <span class="icon-menu"></span>
             <span class="icon-menu"></span>
@@ -117,20 +116,16 @@
               </p>
               <ul class="social-icon wow fadeInUp" data-wow-delay="0.8s">
                 <li>
-                  <a class="facebook" href="https://facebook.com/claretnnamocha" target="_blank"><i
-                      class="icon-social-facebook"></i></a>
+                  <a class="facebook" href="https://facebook.com/claretnnamocha" target="_blank"><i class="icon-social-facebook"></i></a>
                 </li>
                 <li>
-                  <a class="twitter" href="https://twitter.com/claretnnamocha" target="_blank"><i
-                      class="icon-social-twitter"></i></a>
+                  <a class="twitter" href="https://twitter.com/claretnnamocha" target="_blank"><i class="icon-social-twitter"></i></a>
                 </li>
                 <li>
-                  <a class="instagram" href="https://instagram.com/claretnnamocha" target="_blank"><i
-                      class="icon-social-instagram"></i></a>
+                  <a class="instagram" href="https://instagram.com/claretnnamocha" target="_blank"><i class="icon-social-instagram"></i></a>
                 </li>
                 <li>
-                  <a class="linkedin" href="https://linkedin.com/in/claretnnamocha" target="_blank"><i
-                      class="icon-social-linkedin"></i></a>
+                  <a class="linkedin" href="https://linkedin.com/in/claretnnamocha" target="_blank"><i class="icon-social-linkedin"></i></a>
                 </li>
                 <!-- <li>
                     <a class="google" href="#"
@@ -198,9 +193,9 @@
                 </li>
               </ul>
             </div>
-            <a href="http://bit.ly/claret-cv" target="blank" class="btn btn-common"><i
-                class="icon-paper-clip"></i>Download Resume</a>
-            <a href="tel:*556#" class="btn btn-danger"><i class="icon-speech"></i> Contact Me</a>
+            <a href="http://bit.ly/claret-cv" target="blank" class="btn btn-common"><i class="icon-paper-clip"></i>Download Resume</a>
+            <div onclick="window.open('tel:*556#');" class="btn btn-danger"><i class="icon-speech"></i> Contact Me</div>
+            <!-- <a href="tel:*556#" class="btn btn-danger"><i class="icon-speech"></i> Contact Me</a> -->
           </div>
         </div>
       </div>
@@ -376,34 +371,29 @@
                 <div class="row">
                   <div class="col-md-6">
                     <div class="form-group">
-                      <input type="text" class="form-control" id="name" name="name" placeholder="Name" required
-                        data-error="Please enter your name" />
+                      <input type="text" class="form-control" id="name" name="name" placeholder="Name" required data-error="Please enter your name" />
                       <div class="help-block with-errors"></div>
                     </div>
                   </div>
                   <div class="col-md-6">
                     <div class="form-group">
-                      <input type="email" placeholder="Email" id="email" class="form-control" name="email" required
-                        data-error="Please enter your email" />
+                      <input type="email" placeholder="Email" id="email" class="form-control" name="email" required data-error="Please enter your email" />
                       <div class="help-block with-errors"></div>
                     </div>
                   </div>
                   <div class="col-md-12">
                     <div class="form-group">
-                      <input type="text" placeholder="Subject" id="msg_subject" class="form-control" required
-                        data-error="Please enter your subject" />
+                      <input type="text" placeholder="Subject" id="msg_subject" class="form-control" required data-error="Please enter your subject" />
                       <div class="help-block with-errors"></div>
                     </div>
                   </div>
                   <div class="col-md-12">
                     <div class="form-group">
-                      <textarea class="form-control" id="message" placeholder="Your Message" rows="5"
-                        data-error="Write your message" required></textarea>
+                      <textarea class="form-control" id="message" placeholder="Your Message" rows="5" data-error="Write your message" required></textarea>
                       <div class="help-block with-errors"></div>
                     </div>
                     <div class="submit-button">
-                      <button class="btn btn-common disabled" id="submit" type="submit"
-                        style="pointer-events: all; cursor: pointer">
+                      <button class="btn btn-common disabled" id="submit" type="submit" style="pointer-events: all; cursor: pointer">
                         Send Message
                       </button>
                       <div id="msgSubmit" class="h3 text-center hidden"></div>
@@ -460,16 +450,13 @@
                 <a class="facebook" href="https://facebook.com/claretnnamocha"><i class="icon-social-facebook"></i></a>
               </li>
               <li>
-                <a class="twitter" href="https://twitter.com/claretnnamocha" target="_blank"><i
-                    class="icon-social-twitter"></i></a>
+                <a class="twitter" href="https://twitter.com/claretnnamocha" target="_blank"><i class="icon-social-twitter"></i></a>
               </li>
               <li>
-                <a class="instagram" href="https://instagram.com/claretnnamocha" target="_blank"><i
-                    class="icon-social-instagram"></i></a>
+                <a class="instagram" href="https://instagram.com/claretnnamocha" target="_blank"><i class="icon-social-instagram"></i></a>
               </li>
               <li>
-                <a class="instagram" href="https://linkedin.com/in/claretnnamocha" target="_blank"><i
-                    class="icon-social-linkedin"></i></a>
+                <a class="instagram" href="https://linkedin.com/in/claretnnamocha" target="_blank"><i class="icon-social-linkedin"></i></a>
               </li>
               <!-- <li>
                 <a class="instagram" href="https://google.com/claretnnamocha" target="_blank"><i class="icon-social-google"></i></a>
