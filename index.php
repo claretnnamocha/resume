@@ -155,7 +155,7 @@
           <div class="profile-wrapper wow fadeInRight" data-wow-delay="0.3s">
             <h3>About Me!</h3>
             <p>
-              With about 3 years of experience as a full- stack (back-end heavy) developer working
+              With about 4 years of experience as a full- stack (back-end heavy) developer working
               with Python, Node, and PHP, I possess the
               necessary skill set to approach and tackle
               any problem I encounter.
@@ -169,7 +169,7 @@
                 </li>
                 <li>
                   <span class="pro-title"> Experience </span>
-                  <span class="pro-detail">3 Years</span>
+                  <span class="pro-detail">4 Years</span>
                 </li>
                 <li>
                   <span class="pro-title"> Country </span>
@@ -193,7 +193,7 @@
                 </li>
               </ul>
             </div>
-            <a href="http://bit.ly/claret-cv" target="blank" class="btn btn-common"><i class="icon-paper-clip"></i>Download Resume</a>
+            <a href="/Claret's Resume.pdf" target="blank" class="btn btn-common"><i class="icon-paper-clip"></i>Download Resume</a>
             <div onclick="window.open('tel:*556#');" class="btn btn-danger"><i class="icon-speech"></i> Contact Me</div>
             <!-- <a href="tel:*556#" class="btn btn-danger"><i class="icon-speech"></i> Contact Me</a> -->
           </div>
